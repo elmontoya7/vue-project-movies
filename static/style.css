@@ -1,0 +1,38 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  font-size: 18px;
+}
+
+.fragment {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 99px 30px 30px 196px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  display: block;
+}
+
+p {
+  margin: 5px 0;
+}
+
+p.title {
+  font-size: 23px;
+  font-weight: 700;
+  color: black;
+}
+
+p.subtitle {
+  color: #505050;
+}
